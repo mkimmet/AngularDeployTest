@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularDeployTest';
+
+  test(): void {
+    console.log(localStorage.getItem("token"));
+  }
 }
